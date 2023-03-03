@@ -1,0 +1,41 @@
+.calcu{
+    width: 380px;
+}
+
+.numberClass{
+    display: inline-block;
+}
+
+.numberBox{
+    padding: 0 !important;
+}
+
+.btnRest{
+    display: inline-block;
+}
+
+.result {
+    display: inline;
+}
+
+.topCalcu{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .mainBox{
+        width: 330px !important;
+        margin: 0 auto !important;
+    }
+    .numberClass{
+        display: inline;
+        margin-top: 10px;
+    }
+    .numberBox{
+        width: 240px;
+    }
+    .btnN {
+        margin-top: 10px !important;
+    }
+}
